@@ -45,22 +45,3 @@ class Eventlist(Resource):
             Response.status_code = 200
         return jsonify(sorted_result)
 
-
-# /change to json- done
-# sort as - done
-# /add 200 for erro and resturn empty - done
-# add port 8279 - add this as part of docker file.- done
-# test for sample files location - done
-# .gitignore
-# Readme - In this zip file is an empty README.md. Please fill this out describing your project,
-# your test methodology, embellishments, and places where you can improve.
-# - You should include testing code
-# - The solution should handle failure cases
-# - Package the final code in a zip file. Please do not include any binaries files in the zip, e.g. libraries, compiled code...
-# constant memory
-
-
-# running the application
-# run.sh is used to test the app by running docker and providing the test files
-# build.sh is used to trigger the docker build
-# make changes to docker files to run the app but keep the app/test
